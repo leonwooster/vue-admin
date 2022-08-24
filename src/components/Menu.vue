@@ -3,10 +3,16 @@
         <div class="position-sticky pt-3 sidebar-sticky">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
+                    <router-link to="/" active-class="active" class="nav-link" aria-current="page">
                         <span data-feather="home" class="align-text-bottom"></span>
                         Dashboard
-                    </a>
+                    </router-link>
+                </li>
+                <li class="nav-item">
+                    <router-link to="/users" active-class="active" class="nav-link" aria-current="page">
+                        <span data-feather="home" class="align-text-bottom"></span>
+                        Users
+                    </router-link>
                 </li>
             </ul>
         </div>
@@ -15,6 +21,6 @@
 
 <script>
 export default {
-    name:"v_Menu"
+    name: "v_Menu"
 }
 </script>

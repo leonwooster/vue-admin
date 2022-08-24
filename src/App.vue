@@ -1,46 +1,6 @@
 <template>
-  <v_Nav />
-  <div class="container-fluid">
-    <div class="row">
-      <v_Menu/>
-      <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-
-        <div class="table-responsive">
-          <table class="table table-striped table-sm">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Header</th>
-                <th scope="col">Header</th>
-                <th scope="col">Header</th>
-                <th scope="col">Header</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1,001</td>
-                <td>random</td>
-                <td>data</td>
-                <td>placeholder</td>
-                <td>text</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </main>
-    </div>
-  </div>
-  <router-view />
+  <router-view></router-view>
 </template>
-
-<script>
-  import v_Nav from "@/components/Nav";
-  import v_Menu from "@/components/Menu";
-
-  export default {
-    components: {v_Nav, v_Menu}
-  }
-</script>
 
 <style type="text/css">
 body {
