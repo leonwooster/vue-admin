@@ -14,6 +14,13 @@
                         Users
                     </router-link>
                 </li>
+                <li class="nav-item">
+                    <router-link to="/roles" active-class="active" class="nav-link" aria-current="page">
+                        <span data-feather="home" class="align-text-bottom"></span>
+                        Roles
+                    </router-link>
+                </li>
+
             </ul>
         </div>
     </nav>
